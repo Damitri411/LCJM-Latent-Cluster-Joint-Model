@@ -72,7 +72,7 @@ h_i(t | G_i = c) = h0_c(t) · exp( ψ1_c·m1_i(t) + ψ2_c·m2_i(t) + ψ3_c·m3_i
 | `JM_comp_Lymph_Cluster_Polynomial_Selection.R` | Fits and compares polynomial degrees 1–3 for the longitudinal trajectories. |
 | `Cluster_JM_Model_Selection.R` | Computes DIC/AIC/BIC/LPML/WAIC for real-data fits with different K. |
 | `Cluster_JM_viz.R` | Post-processing and figures: cluster-wise mean trajectories, model-based and Kaplan–Meier survival curves, π\* membership plot, forest plots of β, θ and ψ, and MCMC trace, density and cumulative-mean diagnostics. |
-| [`Plots/`](Plots) | EPS figures from the two-cluster real-data fit: cluster-wise trajectories, model-based and Kaplan–Meier survival curves, posterior membership probabilities, and forest plots of ψ, θ and β. See [`Plots/Readme.md`](Plots/Readme.md) for a description of each figure. |
+| [`Plots/`](Plots) | EPS figures from the two-cluster real-data fit: cluster-wise trajectories, model-based and Kaplan–Meier survival curves, posterior membership probabilities, and forest plots of ψ, θ and β. See [`Plots/Readme.md`](Plots/README.md) for a description of each figure. |
 
 ---
 
