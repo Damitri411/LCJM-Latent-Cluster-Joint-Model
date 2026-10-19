@@ -67,16 +67,11 @@ h_i(t | G_i = c) = h0_c(t) · exp( ψ1_c·m1_i(t) + ψ2_c·m2_i(t) + ψ3_c·m3_i
 |---|---|
 | `Simulation_JM.R` | Main simulation study: 200 replicates, n = 250, 10 visits each, 2 true clusters (π = 0.6/0.4). Fits K = 2, 3, 4 and reports information criteria, bias, 95% CrI length and coverage, with label-switching alignment. |
 | `Simulation.R` | Single-replicate version of the simulation with extra null covariates. |
-| `Sim2.R` | Alternative simulation with time-varying covariates mimicking drug-dose profiles and categorical baseline covariates. |
 | `JM_comp_Lymph_Cluster.R` | **Main real-data model.** Lymphocyte is cluster-specific; ANC and platelets are global. Uses a P-spline baseline hazard and a staged initialisation (pilot run → warm-started 2-chain runs). Includes diagnostics. |
-| `JM_comp_Cluster.R` | Fully cluster-specific variant: all three markers and a 6-dimensional random effect vary by cluster. |
 | `JM_comp_Lymph_Dependence_Cluster.R` | Variant where the cluster-specific lymphocyte random effects are centred on subject-level effects linked to ANC/platelets. |
 | `JM_comp_Lymph_Cluster_Polynomial_Selection.R` | Fits and compares polynomial degrees 1–3 for the longitudinal trajectories. |
 | `Cluster_JM_Model_Selection.R` | Computes DIC/AIC/BIC/LPML/WAIC for real-data fits with different K. |
-| `Cluster_JM.R`, `Cluster_JM_EM.R`, `Cluster_LYMPH_JM_EM_ ANC_PLT.R` | Earlier model versions with covariate-dependent mixing weights (φ) and univariate random intercepts. |
 | `Cluster_JM_viz.R` | Post-processing and figures: cluster-wise mean trajectories, model-based and Kaplan–Meier survival curves, π\* membership plot, forest plots of β, θ and ψ, and MCMC trace, density and cumulative-mean diagnostics. |
-| `Data_sent.R` | Back-transforms the analysis dataset to original units and recodes categorical variables for export. |
-
 ---
 
 ## Real-data application
