@@ -129,7 +129,7 @@ install.packages(c("rjags", "R2jags", "jagsUI", "MASS", "dplyr", "data.table",
 
 ## Authors
 
-Damitri Kundu ([@Damitri411](https://github.com/Damitri411)), Sevantee Basu, Manash Pratim Gogoi, and Kiranmoy Das.
+Damitri Kundu, Sevantee Basu, Manash Pratim Gogoi, and Kiranmoy Das.
 
 Code maintained by Damitri Kundu.
 
