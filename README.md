@@ -154,6 +154,3 @@ If you use this code, please cite:
 }
 ```
 
-## License
-
-To be specified.
